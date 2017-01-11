@@ -1,9 +1,9 @@
 <?php
-namespace Slug;
+namespace Boxspaced\CmsSlugModule;
 
 use Boxspaced\EntityManager\Entity\AbstractEntity;
-use Core\Model\RepositoryFactory;
-use Core\Model\Module as AppModule;
+use Boxspaced\CmsCoreModule\Model\RepositoryFactory;
+use Boxspaced\CmsCoreModule\Model\Module as AppModule;
 
 return [
     'router' => [

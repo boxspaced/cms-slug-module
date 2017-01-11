@@ -1,8 +1,8 @@
 <?php
-namespace Slug\Model;
+namespace Boxspaced\CmsSlugModule\Model;
 
 use Boxspaced\EntityManager\Entity\AbstractEntity;
-use Core\Model\Module;
+use Boxspaced\CmsCoreModule\Model\Module;
 
 class Route extends AbstractEntity
 {

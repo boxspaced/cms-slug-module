@@ -1,9 +1,9 @@
 <?php
-namespace Slug\Router;
+namespace Boxspaced\CmsSlugModule\Router;
 
 use Zend\ServiceManager\Factory\FactoryInterface;
 use Interop\Container\ContainerInterface;
-use Slug\Model;
+use Boxspaced\CmsSlugModule\Model;
 
 class SlugRouteFactory implements FactoryInterface
 {

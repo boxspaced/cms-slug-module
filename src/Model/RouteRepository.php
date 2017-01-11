@@ -1,5 +1,5 @@
 <?php
-namespace Slug\Model;
+namespace Boxspaced\CmsSlugModule\Model;
 
 use Boxspaced\EntityManager\EntityManager;
 use Boxspaced\EntityManager\Collection\Collection;

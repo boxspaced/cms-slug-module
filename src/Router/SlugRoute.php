@@ -1,5 +1,5 @@
 <?php
-namespace Slug\Router;
+namespace Boxspaced\CmsSlugModule\Router;
 
 use Traversable;
 use Zend\Stdlib\ArrayUtils;
@@ -9,7 +9,7 @@ use Zend\Router\Http\RouteMatch;
 use Zend\Router\Http\RouteInterface;
 use Zend\Filter\StaticFilter;
 use Zend\Filter\Word\DashToCamelCase;
-use Slug\Model;
+use Boxspaced\CmsSlugModule\Model;
 
 class SlugRoute implements RouteInterface
 {

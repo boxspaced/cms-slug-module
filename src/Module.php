@@ -1,5 +1,5 @@
 <?php
-namespace Slug;
+namespace Boxspaced\CmsSlugModule;
 
 class Module
 {
