@@ -93,7 +93,7 @@ class SlugRoute implements RouteInterface
                 '##',
                 StaticFilter::execute($module->getRouteController(), DashToCamelCase::class),
                 // @todo get from config controller aliases?
-                '##\\Controller\\##Controller'
+                'Boxspaced\\Cms##Module\\Controller\\##Controller'
             );
 
             $params = [
