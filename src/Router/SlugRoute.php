@@ -80,9 +80,6 @@ class SlugRoute implements RouteInterface
             $slug = $this->defaults['slug'];
         }
 
-        // @todo caching
-        //$routes = $container->get('Cache\Long')->getItem(static::ROUTES_CACHE_ID);
-
         $route = $this->routeRepository->getBySlug($slug);
 
         if (null !== $route) {
