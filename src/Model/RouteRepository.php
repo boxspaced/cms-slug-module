@@ -45,9 +45,9 @@ class RouteRepository
      */
     public function getBySlug($slug)
     {
-        $conditions = $this->entityManager->createConditions();
-        $conditions->field('slug')->eq($slug);
-        return $this->entityManager->findOne(Route::class, $conditions);
+        $query = $this->entityManager->createQuery();
+        $query->field('slug')->eq($slug);
+        return $this->entityManager->findOne(Route::class, $query);
     }
 
     /**
